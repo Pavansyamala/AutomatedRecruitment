@@ -72,4 +72,4 @@ The dataset includes:
 - **Kasa Pavan**
 
 ## Acknowledgements
-This project is part of an ongoing collaboration with Infosys to optimize and automate HR processes.
+This project is part of an Internship with Infosys to optimize and automate HR processes.
