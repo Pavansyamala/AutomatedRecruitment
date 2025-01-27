@@ -23,14 +23,22 @@ The dataset includes:
 
 ### 2. Exploratory Data Analysis (EDA)
 #### Key Statistics:
+1. **Statistical Insights**:
+   - A T-Test revealed that the number of words in the transcript is significantly different for selected and rejected candidates.
+2. **Similarity Analysis with TF-IDF**:
+   - The similarity between Transcript and Job Description is higher for selected candidates.
+   - The similarity between Transcript and Resume and Resume and Job Description is comparatively lower.
+3. **Similarity Analysis with Word2Vec**:
+   - The similarity between Resume and Job Description, Job Description and Transcript, and Transcript and Resume is higher for selected candidates compared to rejected candidates.
+4. **Role-Based Data Filtering**:
+   - Role-specific filtering of data helped identify key patterns for candidates matching job-specific requirements.
+
+#### Other Statistics:
 - **Transcript Length**:
   - Average length of transcripts: **250 words**
   - Minimum length: **50 words**, Maximum length: **500 words**
 - **Word Frequency**:
   - Top 5 most frequent words: `experience`, `skills`, `project`, `team`, `development`.
-- **Class Distribution**:
-  - `Selected`: **35%**
-  - `Rejected`: **65%**
 
 #### Insights:
 - Candidates with concise and to-the-point answers had higher chances of selection.
