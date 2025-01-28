@@ -55,11 +55,14 @@ The dataset includes:
   - Logistic Regression
   - Random Forest Classifier
   - Support Vector Machine (SVM)
+  - XGBoost 
+  - Artificial Neural Networks
+  - BERT Embeddings
 - Evaluated models using **accuracy**, **precision**, **recall**, and **F1-score**.
 
 ## Next Steps
 1. Fine-tune models using hyperparameter optimization.
-2. Experiment with advanced deep learning models (e.g., BERT, GPT) for better transcript understanding.
+2. Experiment with advanced deep learning models (GPT) for better transcript understanding.
 3. Develop a user-friendly interface for HR teams to input transcripts and view predictions.
 
 ## Tools and Technologies Used
@@ -67,6 +70,8 @@ The dataset includes:
 - **Libraries**: pandas, numpy, scikit-learn, nltk, spacy, tensorflow
 - **Visualization Tools**: matplotlib, seaborn
 - **Environment**: Jupyter Notebook
+- **Technologies**: Machine Learning , Artififical Neural Networks , Word2vec , Natural Language Processing.
+- **Post Model Analysis**: SHAP Analysis , Partial Dependence Plots
 
 ## Contributors
 - **Kasa Pavan**
